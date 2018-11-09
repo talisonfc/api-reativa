@@ -1,0 +1,21 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Pessoa</ion-title>
+    <ion-buttons right>
+      <button ion-button clear (click)="create()">Nova Pessoa</button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  <ion-list>
+    <ion-item *ngFor="let pessoa of pessoas">
+      {{pessoa.nome}}
+      <button ion-button clear (click)="delete(pessoa)" item-end>Delete</button>
+    </ion-item>
+  </ion-list>
+</ion-content>
