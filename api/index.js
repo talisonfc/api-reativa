@@ -11,7 +11,6 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 
-// dependencias interna
 var db = require("./configDB")
 
 var pessoaController = require("./controllers/pessoa.controller")
