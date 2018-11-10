@@ -1,5 +1,4 @@
-# api-reativa
-API Reativa
+# API Reativa
 
 A interação entre vários usuários de uma mesma aplicação pode ser realizada em tempo real por meio de uma api reativa. A reatividade no contexto de apis permite com todos os usuários de uma aplicação perceba alterações no estado dos dados sem que o usário faça uma requisição, com a reatividade o usuário apenas escuta os eventos disparados pela api.
 
